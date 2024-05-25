@@ -1,0 +1,130 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.room-page-div {
+    min-height: 100vh; /* Ensure full viewport height */
+    padding-bottom: 50px; /* Adjust as needed to prevent content from being hidden under the navbar */
+    box-sizing: border-box;
+}
+
+.room-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    padding: 20px;
+}
+
+.room-item {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    margin-top: 100px;
+}
+
+.room-item-2 {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: navajowhite;
+    margin-top: -15px;
+}
+
+.room-item-3 {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    margin-top: -20px;
+}
+
+.room-item-4 {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: navajowhite;
+    margin-top: -20px;
+}
+
+.room-image {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-right: 2040px; /* Add margin between image and description */
+    top:14%;
+    left:90%;
+}
+
+.room-image-2 {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-right: -20px; /* Add margin between image and description */
+    top:22%;
+    left:95%;
+}
+
+.room-image-3 {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-right: -20px; /* Add margin between image and description */
+    top:22%;
+    left:95%;
+}
+
+.room-image-4 {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-right: -20px; /* Add margin between image and description */
+    top:22%;
+    left:95%;
+}
+
+.room-details {
+    flex: 1;
+}
+
+.room-details h3 {
+    font-size:35px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.room-details p {
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+/* Media query for responsiveness */
+@media (max-width: 768px) {
+    .room-item {
+        flex-direction: column; /* Change to column layout on smaller screens */
+        align-items: flex-start; /* Align items to the start */
+    }
+
+    .room-image {
+        margin-right: 0; /* Remove margin for image on smaller screens */
+        margin-bottom: 20px; /* Add margin below image */
+    }
+}

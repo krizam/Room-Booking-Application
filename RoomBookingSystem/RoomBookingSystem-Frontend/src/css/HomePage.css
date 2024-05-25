@@ -1,0 +1,83 @@
+/* Reset default margins and padding */
+body, html {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.homepage-wrapper {
+    position: relative;
+    overflow: auto;
+}
+
+.swipe-image {
+    position: relative;
+    width: 100vw; /* Set width to viewport width */
+    height: 100vh; /* Set height to viewport height */
+    overflow: hidden; /* Hide content outside the swipe-image div */
+}
+
+.background-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url("../assets/image/mainpage.png");
+    background-size: cover;
+    background-position: center;
+    object-fit: cover;
+    z-index: -1;
+}
+
+.content-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow-y: auto;
+    justify-content: center; /* Center content vertically */
+    align-items: center; /* Center content horizontally */
+}
+
+.text-over-image {
+    padding: 25%; /* Add padding as needed */
+    text-align: center;
+    color: #ffffff;
+    font-family: "Gilroy Regular", "Cormorant Garamond", serif;
+    transition:color 0.3s;
+    letter-spacing: 2px;
+}
+
+.text1 {
+    font-size: 50px;
+    font-weight: bolder;
+}
+
+.text2 {
+    font-size: 70px;
+    margin-top: 10px;
+    font-weight: bolder;
+}
+
+.text3 {
+    font-size: 30px;
+    font-weight: bolder;
+    color: #f5c701;
+}
+
+.text4 {
+    font-size: 30px;
+    margin-top: 10px;
+    font-weight: bolder;
+}
+
+.Contact {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+

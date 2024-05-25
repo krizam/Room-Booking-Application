@@ -1,0 +1,133 @@
+.manage-booking-page {
+    background: #f6f4ef;
+    padding-bottom: 2rem;
+    min-height: 100vh;
+}
+
+.booking-header {
+    display: flex;
+    position: fixed;
+    height: 12vh;
+    width: 79vw;
+    justify-content: space-between;
+    padding: 1rem 1.5rem;
+    background-color: white;
+    border-radius: 14px;
+    box-shadow: 10px 10px 10px -1px rgba(119, 111, 93, 0.52);
+}
+
+.booking-right {
+    width: 79vw;
+    position: relative;
+    margin-left: 19.7vw;
+    margin-bottom: 20rem;
+}
+
+.search-wrapper {
+    border: 1px solid #ccc;
+    border-radius: 30px;
+    height: 50px;
+    width: 20vw;
+    display: flex;
+    align-items: center;
+    overflow-x: hidden;
+}
+
+.search-wrapper span {
+    display: inline-block;
+    padding: 0.7rem 0 0 1rem;
+    font-size: 1.5rem;
+}
+
+.search-wrapper input {
+    height: 100%;
+    padding: 0 1rem;
+    font-family: "Gilroy Regular";
+    font-size: 1rem;
+    letter-spacing: 0.6px;
+    border: none;
+    outline: none;
+}
+
+.table-container {
+    width: 77vw;
+    padding-top: 15vh;
+}
+
+.card-header h2 {
+    margin: -2rem 0 -0.5rem 2.2rem;
+    text-decoration: underline;
+}
+
+.id-box,
+.name-box,
+.action-box {
+    min-width: 8rem;
+}
+
+.delete-btn {
+    padding: 6px 0 0 0;
+    width: 5vw;
+    height: 3vw;
+    border-radius: 10px;
+    margin: -1rem 1rem -1.2rem 2.3rem;
+}
+
+.delete-btn:hover {
+    background: #443f39;
+    color: #b64646;
+    box-shadow: 10px 10px 10px -1px rgb(190, 154, 124);
+}
+
+/* CSS for add-booking-modal */
+body.active-modal {
+    overflow-y: hidden;
+}
+
+.add-booking-modal,
+.add-booking-overlay {
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    position: fixed;
+    z-index: 101;
+    backdrop-filter: blur(3px);
+}
+
+.add-booking-modal-content {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    line-height: 1.4;
+    background: #dcdbdb;
+    padding: 14px 28px;
+    border-radius: 10px;
+    font-size: 1.1rem;
+    width: 30vw;
+    height: 45vh;
+    z-index: 109;
+    text-decoration: underline;
+}
+
+.close-add-booking-btn {
+    width: 3vw;
+    height: 3vw;
+    background: none;
+    box-shadow: none;
+    color: #222222;
+    border-radius: 9px;
+    position: absolute;
+    top: 0.4rem;
+    right: 0.4rem;
+    padding: 7px 3px 0 3px;
+    margin-bottom: -20px;
+}
+
+.close-add-booking-btn:hover {
+    box-shadow: none;
+    color: #831515;
+}
